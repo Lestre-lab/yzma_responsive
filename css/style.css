@@ -1,0 +1,865 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@500&family=Bad+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/yzmagato.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main{
+	width:60%;
+	height: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(234,237,247);
+	background-position: 7% 93%, 97% 10%;
+	background-size: 280px, 380px;
+	background-repeat: no-repeat;
+	background-image:url(../img/logoyzma.png), url(../img/pocion.png);
+}
+header{
+	width: 100%;
+	height:100px;
+	background-image:
+	url(../img/fondouno.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+section{
+	width: 63%;
+	height: 350px;
+	padding-top: 2%;
+	text-align: right;
+	float: right;
+}
+article{
+	width: 60%;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2%;
+	padding-top: 4%;
+	background-image: url(../img/pocion.png);
+	background-size: 100px, 100px ;
+	backgroun position: 80% 90%;
+
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF
+}
+li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	color: #9b59b6;
+	margin: 1%;
+}
+#logoup{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-left: 4%;
+	background-image: url(../img/logoup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#yzma{
+	width: 25%;
+	height: 300px;
+	background-image: url(../img/yzmaa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	float: left;
+	margin-top: 3%;
+	margin-right: 2%;
+	box-shadow: 5px 5px 0 #333333;
+}
+#nombre{
+	width: 70%;
+	height: 20px;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	text-align: center;
+	padding-top: 5%;
+	float: right;
+
+}
+#opacidad{
+	width: 50%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: rgba(20, 20, 20, .3);
+
+}
+#iconopersona{
+	width: 10%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconouno.png);
+	background-size: cover;
+}
+#iconotr{
+	width: 7%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconocuatro.png);
+	background-size: cover;
+}
+#iconoed{
+	width: 9%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconodos.png);
+	background-size: cover;
+}
+#pp{
+	width: 50%;
+	height: 100px;
+	margin-left: auto;
+	float: left;
+	
+}
+#habil{
+	width: 90%;
+	height: 350px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 3%;
+	padding-left: 5%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid; #82589F;
+	text-align: left;
+
+}
+#habil ul li{
+	text-decoration: none;
+}
+
+.columnas{
+	width: 93%;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid #82589F;
+	text-align: left;
+	background-image: none;
+}
+.vid{
+	width: 50%;
+	height: 200px;
+	float: left;
+	padding-top: 6%;
+	margin-top: 2%;
+}
+.opa{
+	background-color: rgba(149,135,156,1);
+	padding: 2%;
+	color: #FFFFFF;
+	box-shadow: 5px 5px 0 #333333;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width:1400px) { 
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/yzmagato.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main{
+	width:70%;
+	height: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(234,237,247);
+	background-position: 7% 93%, 97% 10%;
+	background-size: 280px, 380px;
+	background-repeat: no-repeat;
+	background-image:url(../img/logoyzma.png), url(../img/pocion.png);
+}
+header{
+	width: 100%;
+	height:100px;
+	background-image:
+	url(../img/fondouno.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+section{
+	width: 63%;
+	height: 350px;
+	padding-top: 2%;
+	text-align: right;
+	float: right;
+}
+article{
+	width: 60%;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2%;
+	padding-top: 4%;
+	background-image: url(../img/pocion.png);
+	background-size: 100px, 100px ;
+	backgroun position: 80% 90%;
+
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF
+}
+li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	color: #9b59b6;
+	margin: 1%;
+}
+#logoup{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-left: 6%;
+	background-image: url(../img/logoup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#yzma{
+	width: 25%;
+	height: 300px;
+	background-image: url(../img/yzmaa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	float: left;
+	margin-top: 3%;
+	margin-right: 2%;
+	box-shadow: 5px 5px 0 #333333;
+}
+#nombre{
+	width: 70%;
+	height: 20px;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	text-align: center;
+	padding-top: 4%;
+	float: right;
+	padding-right: 23%;
+
+}
+#opacidad{
+	width: 50%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: rgba(20, 20, 20, .3);
+
+}
+#iconopersona{
+	width: 10%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconouno.png);
+	background-size: cover;
+}
+#iconotr{
+	width: 7%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconocuatro.png);
+	background-size: cover;
+}
+#iconoed{
+	width: 9%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconodos.png);
+	background-size: cover;
+}
+#pp{
+	width: 50%;
+	height: 100px;
+	margin-left: auto;
+	float: left;
+	
+}
+#habil{
+	width: 90%;
+	height: 350px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 3%;
+	padding-left: 5%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid; #82589F;
+	text-align: left;
+
+}
+#habil ul li{
+	text-decoration: none;
+}
+
+.columnas{
+	width: 93%;
+	height: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid #82589F;
+	text-align: left;
+	background-image: none;
+}
+.vid{
+	width: 50%;
+	height: 230px;
+	float: left;
+	padding-top: 6%;
+	margin-top: 2%;
+}
+.opa{
+	background-color: rgba(149,135,156,1);
+	padding: 2%;
+	color: #FFFFFF;
+	box-shadow: 5px 5px 0 #333333;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/yzmagato.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main{
+	width:75%;
+	height: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(234,237,247);	
+	background-image: none;
+}
+header{
+	width: 100%;
+	height:100px;
+	background-image:
+	url(../img/fondouno.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+section{
+	width: 100%;
+	height: 350px;
+	padding-top: 2%;
+	text-align: right;
+	float: right;
+}
+article{
+	width: 60%;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2%;
+	padding-top: 4%;
+	background-size: 100px, 100px ;
+	backgroun position: 80% 90%;
+
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF
+}
+li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32pt;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14pt;
+	color: #9b59b6;
+	margin: 1%;
+}
+#logoup{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-left: 4%;
+	margin-left: 2%;
+	background-image: url(../img/logoup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#yzma{
+	width: 30%;
+	height: 300px;
+	background-image: url(../img/yzmaa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	float: left;
+	margin-top: 3%;
+	margin-right: 2%;
+	box-shadow: 5px 5px 0 #333333;
+}
+#nombre{
+	width: 70%;
+	height: 20px;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	text-align: center;
+	padding-top: 5%;
+	margin-right: 10%;
+	float: right;
+
+}
+#opacidad{
+	width: 50%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: rgba(20, 20, 20, .3);
+
+}
+#iconopersona{
+	width: 10%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconouno.png);
+	background-size: cover;
+}
+#iconotr{
+	width: 7%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconocuatro.png);
+	background-size: cover;
+}
+#iconoed{
+	width: 9%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconodos.png);
+	background-size: cover;
+}
+#pp{
+	width: 60%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	
+}
+#habil{
+	width: 100%;
+	height: 450px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 3%;
+	padding-left: 5%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid; #82589F;
+	text-align: left;
+
+}
+#habil ul li{
+	text-decoration: none;
+}
+
+.columnas{
+	width: 93%;
+	height: 470px;
+	margin-right: auto;
+	margin-left: auto;
+	column-count: 2;
+	column-gap: 30px;
+	column-rule: 1px solid #82589F;
+	text-align: left;
+	background-image: none;
+}
+.vid{
+	width: 50%;
+	height: 200px;
+	float: left;
+	padding-top: 6%;
+	margin-top: 2%;
+	display: none;
+}
+.opa{
+	background-color: rgba(149,135,156,1);
+	padding: 2%;
+	color: #FFFFFF;
+	box-shadow: 5px 5px 0 #333333;
+	font-size: 12pt;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+}
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1190px){
+	
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/yzmagato.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main{
+	width:75%;
+	height: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(234,237,247);
+	background-position: 3% 97%, 120% 10%;
+	background-size: 280px, 380px;
+	background-repeat: no-repeat;
+	background-image:url(../img/logoyzma.png), url(../img/pocion.png);
+}
+header{
+	width: 100%;
+	height:100px;
+	background-image:
+	url(../img/fondouno.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+}
+section{
+	width: 63%;
+	height: 350px;
+	padding-top: 2%;
+	text-align: right;
+	float: right;
+}
+article{
+	width: 60%;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2%;
+	padding-top: 4%;
+	background-image: url(../img/pocion.png);
+	background-size: 100px, 100px ;
+	backgroun position: 80% 90%;
+
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto; 
+	clear: both;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+
+}
+a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF
+}
+li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	text-align: left;
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30pt;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	color: #9b59b6;
+	margin: 1%;
+}
+#logoup{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-left: 4%;
+	background-image: url(../img/logoup.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 4%;
+	
+}
+#yzma{
+	width: 25%;
+	height: 300px;
+	background-image: url(../img/yzmaa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	float: left;
+	margin-top: 3%;
+	margin-right: 2%;
+	box-shadow: 5px 5px 0 #333333;
+}
+#nombre{
+	width: 70%;
+	height: 20px;
+	color: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt; 
+	text-align: center;
+	padding-top: 5%;
+	margin-right: 9%;
+	float: right;
+
+}
+#opacidad{
+	width: 50%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: rgba(20, 20, 20, .3);
+
+}
+#iconopersona{
+	width: 10%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconouno.png);
+	background-size: cover;
+}
+#iconotr{
+	width: 7%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconocuatro.png);
+	background-size: cover;
+}
+#iconoed{
+	width: 9%;
+	height: 20pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-image: url(../img/iconodos.png);
+	background-size: cover;
+}
+#pp{
+	width: 60%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	
+}
+#habil{
+	width: 100%;
+	height: 350px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+	padding-right: 25%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid; #82589F;
+	text-align: left;
+
+}
+#habil ul li{
+	text-decoration: none;
+}
+
+.columnas{
+	width: 93%;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid #82589F;
+	text-align: left;
+	background-image: none;
+}
+.vid{
+	width: 50%;
+	height: 200px;
+	float: left;
+	padding-top: 6%;
+	margin-top: 2%;
+	margin-top: 6%;
+	margin-left: 3%;
+}
+.opa{
+	background-color: rgba(149,135,156,1);
+	padding: 2%;
+	color: #FFFFFF;
+	box-shadow: 5px 5px 0 #333333;
+}
+.sub{
+	color: #FFFFFF;
+	text-align: center;
+}
+}
+
+
